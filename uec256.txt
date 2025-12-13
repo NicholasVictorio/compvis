@@ -1,0 +1,12 @@
+136	nasi goreng -
+137	ayam goreng -
+138	ayam bakar -
+139	bubur ayam x
+140	gulai ---?
+141	laksa
+142	mie ayam -
+143	mie goreng - 
+144	nasi campur x
+145	nasi padang x
+146	nasi uduk x
+147	babi guling x

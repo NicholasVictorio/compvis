@@ -1,0 +1,12 @@
+# Datasets
+dataset/
+dataset_final/
+dataset_raw/
+dataset_working/
+-dataset/
+
+# Runs and Models
+runs/
+__pycache__/
+*.ipynb_checkpoints
+.ipynb_checkpoints/
