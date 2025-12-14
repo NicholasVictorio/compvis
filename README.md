@@ -142,27 +142,34 @@ project-root/
 ├── requirements.txt
 ├── best.pt
 ├── data/
-│ ├── raw/
-│ ├── dataset/
-│ ├── dataset_raw/
-│ ├── dataset_working/
-│ └── dataset_final/
+│   ├── raw/
+│   ├── dataset_raw/
+│   ├── dataset_working/
+│   └── dataset_final/
+│       ├── train/
+│       │   ├── images/
+│       │   └── labels/
+│       ├── val/
+│       │   ├── images/
+│       │   └── labels/
+│       └── test/
+│           ├── images/
+│           └── labels/
 ├── report/
-│ ├── Report.pdf
-│ ├── Presentation.pptx
-│ └── README.md
+│   └── Report.pdf
+├── Presentation.pptx
 └── README.md
 
-## 🚀 How to Run
 
-```bash
+How to Run
+1️⃣ Install dependencies
 pip install -r requirements.txt
+
+2️⃣ Run the application
 streamlit run app.py
 
-## Open browser at:
-
+3️⃣ Open in browser
 http://localhost:8501
-
 
 ## ⚠️ Limitations
 
