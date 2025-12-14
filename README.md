@@ -136,6 +136,7 @@ Key components of the app:
 ---
 
 ## 📁 Project Structure
+```
 project-root/
 ├── app.py
 ├── classes.txt
@@ -143,7 +144,6 @@ project-root/
 ├── best.pt
 ├── data/
 │   ├── raw/
-│   ├── dataset_raw/
 │   ├── dataset_working/
 │   └── dataset_final/
 │       ├── train/
@@ -159,17 +159,23 @@ project-root/
 │   └── Report.pdf
 ├── Presentation.pptx
 └── README.md
-
+```
 
 How to Run
 1️⃣ Install dependencies
+```
 pip install -r requirements.txt
+```
 
 2️⃣ Run the application
+```
 streamlit run app.py
+```
 
 3️⃣ Open in browser
+```
 http://localhost:8501
+```
 
 ## ⚠️ Limitations
 
